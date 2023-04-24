@@ -1,0 +1,117 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there","Hi","Hey","Hola", "Hello", "Good day","HoW far","What's up"],
+         "responses": ["Hi there","Hi","Hey","Hola", "Hello", "Good day","HoW far","What's up"],
+         "context": [""]
+        },
+        {"tag": "greeting2",
+         "patterns": ["Good morning", "Bon jour"],
+         "responses": ["Good morning","Good morning, hope you slept well","Good morning, How was your night"],
+         "context": [""]
+        },
+        {"tag": "greeting3",
+         "patterns": ["Good afternoon","Bon apres midi"],
+         "responses": ["good afternoon", "Good day"],
+         "context": [""]
+        },
+        {"tag": "greeting4",
+         "patterns": ["Good night", "sweet dreams"],
+         "responses": ["Good night dear", "Sweet dreams"],
+         "context": [""]
+        },
+        {"tag": "greeting5",
+         "patterns": ["how are you?", "how are you doing","How's it going?","i am fine how are you?","i am fine what about you"],
+         "responses": ["i am fine", "Gud, thanks for asking"," Everything is good.","Everything is going well. How about you?","I'm okay. How are you?","am great","i am Okay"],
+         "context": [""]
+        },
+        {"tag": "greeting6",
+         "patterns": ["What's up?", "Sup?"],
+         "responses": ["Hey. How are you?", "I'm good. How are you?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Have a Good day","I am leaving","Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["Sad to see you go :(","Goodbye","Talk to you later","See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "age",
+         "patterns": ["How old are you","what is you age"],
+         "responses": ["Why do you want to know?","My age, is irrelevant","I am {AGE} days old","AGE","MY age is {AGE} days","I was born saturday Thirtieth of february,2021. Do the math"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["Who are you","What is your name","what should i call you","what's your name","what are you called"],
+         "responses": ["I am {NAME}","just call me {NAME}","You can call me {NAME}"],
+         "context": [""]
+        },
+        {"tag": "identity",
+         "patterns": ["What are you"],
+         "responses": ["I am an a simple A I"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","No problem","You are Welcome"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [" ",""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help do you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can help you search for things online,What do you need?","What do you need?", "We can just jist,if you like", "I can help you identify pictures",
+                        "i can play songs for you","i can play movies or videos"],
+         "context": [""]
+        },
+        {"tag": "love",
+         "patterns": ["i hate you","i love you", "can i love you"],
+         "responses": ["how can you love me, when am not even human","please, dont i aint interested","Suit yourself","look!. i am an A I"],
+         "context": [""]
+        },
+        {"tag": "insult",
+         "patterns": ["idiot","moron","fool","you are an idiot","you are a moron","you are a fool","stop being such a cunt",
+                      "stop being such an idiot","stop being such a fool","stop being such a moron","stop being so foolish", ""],
+         "responses": ["funny enough you are more of a fool", "shut up!, and try being sensible for once", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "No",
+         "patterns": ["No","No please,","No ah","i can't","i mustn't"],
+         "responses": ["Ok..", "Suit yourself", "if you say so!"],
+         "context": [""]
+        },
+        {"tag": "Yes",
+         "patterns": ["yes","i can","i will","i must","happy to help","i am happy to help"],
+         "responses": ["thanks", "ok, no problem", "ok.."],
+         "context": [""]
+        },
+        {"tag": "Animal",
+         "patterns": ["dog","cat","goat","cow","cattle","fowl","fish","lion","tiger","gorilla"],
+         "responses": ["animal", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "objects",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "female_compliments",
+         "patterns": ["you are beautiful","you are gorgeous","you are pretty"],
+         "responses": ["whats your problem i am not a woman, pls try and have sense", "Not sure I understand, please re phrase"],
+         "context": [""]
+        },
+        {"tag": "male_compliments",
+         "patterns": ["you are handsome","you are amazing","you are stunning","you look handsome","you are good","womderful","great",
+                      ""],
+         "responses": ["thanks", "I know right", "thanks alot", "thank you"],
+         "context": [""]
+        },
+        {"tag": "obscene_questions",
+         "patterns": ["have you had sex?","are you a virgin?","pornography"],
+         "responses": ["############"],
+         "context": [""]
+        }
+
+]
+}
